@@ -1,0 +1,21 @@
+{
+  "name": "coffee_cup_backend",
+  "version": "1.0.0",
+  "description": "A backend for my coffee cup application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --env-file=.env ./routes.js"
+  },
+  "author": "maiko.dev",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0"
+  }
+}
